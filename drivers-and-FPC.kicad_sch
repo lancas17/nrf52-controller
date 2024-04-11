@@ -1,0 +1,164 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "539f64d3-3ce7-450d-aec9-d134165a48b2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "~{CS4}"
+		(shape input)
+		(at 88.265 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10a41c8f-74f9-464a-87a9-a0a7d5d7a428")
+	)
+	(hierarchical_label "~{CS6}"
+		(shape input)
+		(at 88.265 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b2a09e9-5732-4551-b0fe-085955bd6d36")
+	)
+	(hierarchical_label "CIPO"
+		(shape output)
+		(at 88.265 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cc651d8-8f89-4818-97f2-e23000428f43")
+	)
+	(hierarchical_label "~{HB_FAULT}"
+		(shape output)
+		(at 88.265 79.375 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37b53078-4fe0-4567-b90f-163fc66ba990")
+	)
+	(hierarchical_label "COPI"
+		(shape input)
+		(at 88.265 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42f1e5c3-e1db-48c5-a728-c3945f1e4dff")
+	)
+	(hierarchical_label "~{CS5}"
+		(shape input)
+		(at 88.265 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6920ade5-4cea-429f-a5fd-e2a3e6c14cff")
+	)
+	(hierarchical_label "~{CS2}"
+		(shape input)
+		(at 88.265 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dd44b5e-a1c9-4e3c-9845-6ac83eb91ce5")
+	)
+	(hierarchical_label "HB_EN"
+		(shape input)
+		(at 88.265 108.585 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ffda33e-d6a1-468d-84ad-a80ad53dc5a5")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 88.265 73.025 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73c20c1f-f44a-4853-8690-30dc3ec7336c")
+	)
+	(hierarchical_label "~{CS3}"
+		(shape input)
+		(at 88.265 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5329e71-40c7-4002-a5c7-2a012f00a3b6")
+	)
+	(hierarchical_label "~{CS1}"
+		(shape input)
+		(at 88.265 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5ad276e-a9e4-4c22-976b-e5919aba514c")
+	)
+	(hierarchical_label "HB_PWR"
+		(shape input)
+		(at 88.265 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe6aeccc-ebdd-408b-ae41-0046cd29183d")
+	)
+	(hierarchical_label "~{CS7}"
+		(shape input)
+		(at 88.265 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffe20305-9c06-4db9-b5f9-29c8367bb9d9")
+	)
+)
