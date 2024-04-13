@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "nrf52-controller")(type "KiCad")(uri "/Users/mlancaster/Documents/GitHub/nrf52-controller/nrf52-controller.pretty")(options "")(descr ""))
+)

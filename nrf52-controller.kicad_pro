@@ -235,7 +235,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "nrf52-controller"
+    ],
     "pinned_symbol_libs": [
       "nrf52-controller"
     ]
