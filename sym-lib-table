@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nrf52-controller")(type "KiCad")(uri "${KIPRJMOD}/nrf52-controller.kicad_sym")(options "")(descr ""))
+)

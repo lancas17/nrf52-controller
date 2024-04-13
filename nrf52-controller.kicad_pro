@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "nrf52-controller"
+    ]
   },
   "meta": {
     "filename": "nrf52-controller.kicad_pro",
