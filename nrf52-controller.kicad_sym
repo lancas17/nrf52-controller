@@ -592,6 +592,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 10.16 -15.24 180)
+				(length 2.54) hide
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 10.16 13.97 180)
 				(length 2.54) hide

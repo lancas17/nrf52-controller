@@ -2150,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.356 78.105) (xy 182.88 78.105)
+			(xy 172.085 78.105) (xy 182.88 78.105)
 		)
 		(stroke
 			(width 0)
@@ -2238,8 +2238,8 @@
 		)
 		(uuid "e1e4e531-fc0e-4f17-965a-150403f7360b")
 	)
-	(label "EN"
-		(at 181.356 78.105 0)
+	(label "12V_EN2"
+		(at 173.99 78.105 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2271,28 +2271,6 @@
 		)
 		(uuid "a10632e7-f71f-470f-ae53-5b1053eee4b5")
 	)
-	(global_label "12V EN"
-		(shape input)
-		(at 173.736 78.105 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f42f5b5-a413-4a1e-8f59-fb6df03d5b15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8755 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "12V"
 		(shape output)
 		(at 243.586 63.881 0)
@@ -2304,6 +2282,18 @@
 			(justify left)
 		)
 		(uuid "7341683f-489a-42b6-aec6-8f24a539eca8")
+	)
+	(hierarchical_label "12V_EN1"
+		(shape input)
+		(at 172.085 70.485 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cc20bbe-d08e-4c79-abf5-a60650111128")
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
@@ -2441,7 +2431,7 @@
 		(dnp no)
 		(uuid "1118117c-4c6c-43f8-a1a8-6e152163a0c0")
 		(property "Reference" "R12"
-			(at 218.44 83.185 90)
+			(at 222.25 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3335,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.546 78.105 270)
+		(at 172.085 74.295 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3353,7 +3343,7 @@
 		(dnp no)
 		(uuid "9cfef887-c07a-49ca-91e9-ef24e3f8972f")
 		(property "Reference" "R11"
-			(at 176.276 75.819 90)
+			(at 167.005 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3352,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 175.768 78.105 90)
+			(at 172.085 76.073 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3361,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.546 76.327 90)
+			(at 170.307 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.546 78.105 0)
+			(at 172.085 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.546 78.105 0)
+			(at 172.085 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3388,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 177.546 78.105 90)
+			(at 172.085 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +4460,7 @@
 		(dnp no)
 		(uuid "fcf423b3-c47d-44d2-a031-c4f83115168f")
 		(property "Reference" "R10"
-			(at 218.694 75.565 90)
+			(at 222.25 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)

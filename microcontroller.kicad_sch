@@ -3530,10 +3530,6 @@
 		(uuid "a4d772f9-e4e5-48cf-b3b8-b051f5867dfc")
 	)
 	(no_connect
-		(at 97.155 134.62)
-		(uuid "b005e3b8-406d-4b02-9dc1-421987b3648e")
-	)
-	(no_connect
 		(at 97.155 137.16)
 		(uuid "bdb95a17-7dbe-4834-906f-f91c6380e14e")
 	)
@@ -4445,6 +4441,17 @@
 		)
 		(uuid "9cea0a56-9a43-4546-b5b8-4227bb81ccff")
 	)
+	(label "XTAL1"
+		(at 149.86 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac9b5987-54f7-4188-a57c-c228ed549afe")
+	)
 	(label "LED_B"
 		(at 58.42 147.955 180)
 		(fields_autoplaced yes)
@@ -4565,6 +4572,17 @@
 			(justify right bottom)
 		)
 		(uuid "f1138d30-d65f-4ff1-a7fd-1a786dfa3556")
+	)
+	(label "XTAL2"
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f22ebd04-7261-4914-a528-6051bfa78ffa")
 	)
 	(label "QSPI_DATA1"
 		(at 154.94 121.92 180)
@@ -4803,6 +4821,18 @@
 			(justify right)
 		)
 		(uuid "c741718a-991e-4604-b60e-db61fb9e1e17")
+	)
+	(hierarchical_label "12V_EN1"
+		(shape output)
+		(at 97.155 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb1e9431-e269-4033-93fc-97c838ee6fb9")
 	)
 	(hierarchical_label "HB_EN"
 		(shape input)
@@ -6316,7 +6346,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 173.355 75.565 90)
+		(at 173.355 75.565 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6325,21 +6355,21 @@
 		(fields_autoplaced yes)
 		(uuid "85e1eaf5-494f-4921-9b0e-3e1e85969eb9")
 		(property "Reference" "Y1"
-			(at 177.165 74.2949 90)
+			(at 177.8 74.2949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 177.165 76.8349 90)
+			(at 177.8 76.8349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"

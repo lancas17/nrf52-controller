@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "nrf52-controller:WSON-8_3x2mm_EP-0.2x2mm"
 			(at -0.254 -24.13 0)
 			(effects
 				(font
